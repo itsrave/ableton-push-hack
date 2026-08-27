@@ -7,6 +7,14 @@ between minor versions).
 
 ## [Unreleased]
 
+### Added
+
+- `hacks/push-audio-loopback`: a virtual sound card ("Push Hack Virtual
+  Audio") that lets an outside process send audio to Live, or receive
+  audio from it, without opening the real hardware device. Built from
+  the Linux kernel's own ALSA Loopback driver, with a small rename
+  patch. See `plans/2026-08-27-push-audio-virtual-device.md`.
+
 ## [0.1.0-alpha] - 2026-08-26
 
 Retroactive baseline: this is the first tagged release, covering everything
